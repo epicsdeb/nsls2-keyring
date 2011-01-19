@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e # exit if any command fails
+
+cleankey() {
+    apt-key list | grep -q $1 && apt-key del $1 || true
+}
+
+if which apt-key > /dev/null; then
+    apt-key add /usr/share/keyrings/nsls2-archive-keyring.gpg
+    echo "Cleaning expired keys"
+    cleankey 92B817BF # expired 2011-01-12
+fi
+
+#DEBHELPER#

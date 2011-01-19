@@ -1,0 +1,10 @@
+NSLSII archive signing key update package
+
+This package contains the current signing keys for the
+EPICS package repository managed by BNL.  It will
+be periodically updated as new keys are added, and
+old keys expire.
+
+Place new keys in archive/
+
+Add an entry for expired keys in debian/postinst

@@ -1,0 +1,6 @@
+nsls2-keyring (1) unstable; urgency=low
+
+  * Initial release.
+  * Includes current archive signing key 7433FB4B and next key 59EC9B7E
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Wed, 19 Jan 2011 11:42:15 -0500

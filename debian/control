@@ -1,0 +1,16 @@
+Source: nsls2-keyring
+Section: misc
+Priority: important
+Maintainer: Michael Davidsaver <mdavidsaver@bnl.gov>
+Build-Depends: debhelper (>= 7), jetring, gnupg
+Standards-Version: 3.8.0
+Homepage: http://epics.nsls2.bnl.gov/debian/
+Vcs-Git: http://epics.nsls2.bnl.gov/git/nsls2-keyring.git
+
+Package: nsls2-archive-keyring
+Priority: important
+Architecture: all
+Depends: gnupg
+Description: GnuPG archive keys of the NSLS2 Debian archive
+ The NSLS2 archive Release files are signed. This package
+ contains the keys used.
