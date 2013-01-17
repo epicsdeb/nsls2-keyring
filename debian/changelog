@@ -1,3 +1,9 @@
+nsls2-keyring (3) unstable; urgency=low
+
+  * Add BE16DA67 key and remove expired keys
+
+ -- Michael Davidsaver <mdavidsaver@bnl.gov>  Thu, 17 Jan 2013 12:02:40 -0500
+
 nsls2-keyring (2) unstable; urgency=low
 
   * Add new key 256355F9

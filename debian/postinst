@@ -10,6 +10,11 @@ if which apt-key > /dev/null; then
     apt-key add /usr/share/keyrings/nsls2-archive-keyring.gpg
     echo "Cleaning expired keys"
     cleankey 92B817BF # expired 2011-01-12
+    cleankey 7433FB4B # expired 2012-03-10
+    cleankey 59EC9B7E # expired 2013-01-14
+    # The future
+    #cleankey 256355F9 # expires 2014-01-13
+    #cleankey BE16DA67 # expires 2015-01-17
 fi
 
 #DEBHELPER#
