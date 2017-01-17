@@ -13,9 +13,12 @@ if which apt-key > /dev/null; then
     cleankey 7433FB4B # expired 2012-03-10
     cleankey 59EC9B7E # expired 2013-01-14
     cleankey 256355F9 # expires 2014-01-13
+    cleankey BE16DA67 # expires 2015-01-17
+    cleankey 70FB0014 # expires 2016-01-17
+    cleankey D1BE1726 # expires 2017--1-19
     # The future
-    #cleankey BE16DA67 # expires 2015-01-17
-    #cleankey 70FB0014 # expires 2016-01-17
+    #cleankey 77B3C832 # expires 2018-01-18
+    #cleankey 2A9D4530 # expires 2019-01-17
 fi
 
 #DEBHELPER#
