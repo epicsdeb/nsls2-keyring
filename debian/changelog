@@ -1,5 +1,11 @@
 nsls2-keyring (8) unstable; urgency=low
 
+  * add D237CC32 remove expired key
+
+ -- Leon Flaks <flaks@bnl.gov>  Thu, 17 Jan 2019 13:00:29 -0500
+
+nsls2-keyring (8) unstable; urgency=low
+
   * add F0D6998B remove expired keys
 
  -- Leon Flaks <flaks@bnl.gov>  Mon, 22 Jan 2018 15:09:49 -0500
